@@ -9,7 +9,6 @@
     "url": "git://github.com/chbrown/grunt-contrib-handlebars.git"
   },
   "dependencies": {
-    "handlebars": "*",
-    "grunt-lib-contrib": "*"
+    "handlebars": "*"
   }
 }
