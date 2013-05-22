@@ -8,8 +8,8 @@ Less is more.
       grunt.initConfig({
         handlebars: {
           all: {
-            src: 'templates',
-            ext: 'mu',
+            glob: 'templates/*.mu',
+            namespace: 'Handlebars.templates', // optional
             dest: 'static/templates.js'
           }
         },
