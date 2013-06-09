@@ -22,6 +22,9 @@ module.exports = function(grunt) {
         if (err) {
           grunt.fail.fatal(result);
         }
+        else if (opts.output) {
+          grunt.log.writeln('File "' + opts.output + '" created.');
+        }
         done(err);
       });
     });
