@@ -1,6 +1,18 @@
 # grunt-contrib-handlebars
 
-Less is more.
+Less is more. See `handlebars --help` for options.
+
+Required:
+
+* `templates` -- a file glob
+
+Optional:
+
+* `output` -- output filename
+* `min` -- minify templates
+* `namespace` -- where to access templates
+* `root` -- prefix to leave off names
+* `extension` -- extension to leave off names
 
 ## `Gruntfile.js`
 
@@ -8,9 +20,10 @@ Less is more.
       grunt.initConfig({
         handlebars: {
           all: {
-            glob: 'templates/*.mu',
-            namespace: 'Handlebars.templates', // optional
-            dest: 'static/templates.js'
+            templates: 'templates/**/*.bars',
+            root: 'templates',
+            extension: 'bars',
+            output: 'static/templates.js'
           }
         },
       });
@@ -29,6 +42,6 @@ Less is more.
       }
     }
 
-### License
+## License
 
-MIT Licensed
+Copyright © 2013 Christopher Brown. [MIT Licensed](LICENSE).

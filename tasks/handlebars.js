@@ -10,7 +10,7 @@ module.exports = function(grunt) {
     glob(opts.templates, function (err, args) {
       if (opts.output)
         args.push('--output', opts.output);
-      if (opts.minify)
+      if (opts.min)
         args.push('--min');
       if (opts.namespace)
         args.push('--namespace', opts.namespace);

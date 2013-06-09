@@ -9,6 +9,8 @@
     "templates",
     "mustache"
   ],
+  "author": "Christopher Brown <io@henrian.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/chbrown/grunt-contrib-handlebars.git"
