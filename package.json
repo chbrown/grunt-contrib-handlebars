@@ -1,9 +1,14 @@
 {
   "name": "grunt-contrib-handlebars",
   "description": "Precompile Handlebars template.",
-  "version": "0.5.10",
+  "version": "0.6.0",
   "homepage": "https://github.com/chbrown/grunt-contrib-handlebars",
-  "keywords": ["gruntplugin", "handlebars", "templates", "mustache"],
+  "keywords": [
+    "gruntplugin",
+    "handlebars",
+    "templates",
+    "mustache"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/chbrown/grunt-contrib-handlebars.git"
